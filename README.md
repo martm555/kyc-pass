@@ -7,7 +7,7 @@ This project contains of 2 packages: forecast-api and forecast-fe.
 
 To run both projets you have to execute these separately. 
 
-## Forecast API
+#### Forecast API
 
 In project root run the following commands.
 
@@ -37,7 +37,7 @@ Run tests
 
 `yarn test`
 
-## Forecast FE
+#### Forecast FE
 
 In project root run the following commands.
 
