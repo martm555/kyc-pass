@@ -58,3 +58,12 @@ Run application
 `yarn serve`
 
 Forecast FE is now available in `http://localhost:8080` (be sure that port 8080 is available in your local machine)
+
+## Task suggestion
+
+Add confidence value to your forecast for every day/week. Basically if user wants forecast for 2 weeks based on the last 2 weeks then its possible to 
+calculate some confidence value before 2 weeks. 
+
+For example, if I want a forecast for entire May. I get it based on March. 
+I calculate the forecast for March(based on the February) and compare it to real currency rates in March. 
+Let the developer decide how this confidence key is calculated.
